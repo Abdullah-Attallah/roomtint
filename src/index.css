@@ -1,0 +1,54 @@
+/* ── Local fonts (no Google Fonts, no CDN) ── */
+@import './assets/fonts/fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 20% 97%;
+    --foreground: 20 14% 8%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 8%;
+    --primary: 16 85% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 15% 92%;
+    --secondary-foreground: 20 14% 20%;
+    --muted: 30 10% 93%;
+    --muted-foreground: 20 8% 46%;
+    --accent: 30 40% 88%;
+    --accent-foreground: 20 14% 15%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 12% 88%;
+    --input: 30 12% 88%;
+    --ring: 16 85% 40%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Instrument Serif', ui-serif, Georgia, 'Times New Roman', serif;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}

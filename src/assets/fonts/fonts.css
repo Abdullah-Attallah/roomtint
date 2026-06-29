@@ -1,0 +1,70 @@
+/*
+ * RoomTint — Local Font Declarations
+ * ────────────────────────────────────
+ * Place these font files in src/assets/fonts/ :
+ *   • InstrumentSerif-Regular.woff2
+ *   • InstrumentSerif-Italic.woff2
+ *   • DMSans-Light.woff2
+ *   • DMSans-Regular.woff2
+ *   • DMSans-Medium.woff2
+ *   • DMSans-SemiBold.woff2
+ *
+ * Download them once with:
+ *   cd src/assets/fonts
+ *   curl -L "https://fonts.gstatic.com/s/instrumentserif/v1/MELNn8isIsQoeyYLBMG5CLVZ6S8.woff2" -o InstrumentSerif-Regular.woff2
+ *   curl -L "https://fonts.gstatic.com/s/instrumentserif/v1/MELPn8isIsQoeyYLBMG5CLVZ6S8Z6Q.woff2" -o InstrumentSerif-Italic.woff2
+ *   curl -L "https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZOIHTWEBlwy8Q.woff2" -o DMSans-Light.woff2
+ *   curl -L "https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZOIHTWEBlwu8Q.woff2" -o DMSans-Regular.woff2
+ *   curl -L "https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZa_HTWEBlwu8Q.woff2" -o DMSans-Medium.woff2
+ *   curl -L "https://fonts.gstatic.com/s/dmsans/v15/rP2Hp2ywxg089UriCZKtHTWEBlwu8Q.woff2" -o DMSans-SemiBold.woff2
+ *
+ * If files are missing, the app falls back to system fonts automatically.
+ */
+
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./InstrumentSerif-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./InstrumentSerif-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./DMSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./DMSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./DMSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./DMSans-SemiBold.woff2') format('woff2');
+}
