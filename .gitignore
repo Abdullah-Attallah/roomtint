@@ -3,3 +3,7 @@ node_modules/
 backend/models/
 *.safetensors
 dist/backend/
+.env
+backend/.env
+__pycache__/
+*.pyc
